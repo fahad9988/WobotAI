@@ -10,6 +10,7 @@ const Form = () => {
   const [location, setLocation] = React.useState("");
 console.log(location)
   return (
+    
     <Box position="absolute" top="75px" left="31%" zIndex={100}  w="40%" bgColor={"white"} p="40px" borderRadius={"10px"}  boxShadow="rgba(149, 157, 165, 0.2) 0px 8px 24px;" >
       <Stack gap="15px" w="70%" m="auto">
         <Image display={"block"} m="auto" w="40px" h="35px" src={logo} />
@@ -61,6 +62,9 @@ console.log(location)
         <Button bgColor={"#3766E8"} color="white" w="100%" _hover={{bgColor:"#3766E8",color:"white"}} >Get Started</Button>
       </Box>
 
+      <Box  position={"absolute"} left="33%" bottom="-50px" zIndex={500} >
+    <Text  color="#909091" fontWeight={600}  >Terms of use | Privacy Policy</Text>
+   </Box>
     </Box>
   )
 }

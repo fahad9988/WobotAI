@@ -14,9 +14,7 @@ const Login = () => {
    <Form/>
 
    <div id="slantDiv"></div>
-   <Box  position={"absolute"} left="43%" bottom="105px" zIndex={500} >
-    <Text  color="#909091" fontWeight={600}  >Terms of use | Privacy Policy</Text>
-   </Box>
+  
    </div>
   )
 }
