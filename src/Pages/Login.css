@@ -1,0 +1,47 @@
+#container{
+width: 100%;
+height: 950px;
+background-color: #F9F9F9;
+position: relative;
+overflow: hidden;
+}
+
+h1{
+ color: white;
+ font-size: 70px;
+}
+
+#slantDiv{
+width: 100%;
+height: 45%;
+background-color:#F5F5F5;
+position: absolute;
+top:  220px;
+left: 0;
+transform: skewY(150deg);
+
+
+}
+
+#slantDiv::after {
+ content: '';
+ width: 50%;
+ height: 15px;
+
+ background: #E0E8FC;
+ position: absolute;
+ bottom: -4px;
+}
+#slantDiv::before {
+ content: '';
+ width: 50%;
+ height: 15px;
+
+ background: #E0E8FC;
+ position: absolute;
+ top: 4px;
+ left: 0;
+
+}
+
+
